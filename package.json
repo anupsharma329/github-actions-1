@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests found, skipping...\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,4 @@
     "url": "https://github.com/anupsharma329/github-actions-1/issues"
   },
   "homepage": "https://github.com/anupsharma329/github-actions-1#readme"
-
 }

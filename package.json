@@ -17,4 +17,9 @@
     "url": "https://github.com/anupsharma329/github-actions-1/issues"
   },
   "homepage": "https://github.com/anupsharma329/github-actions-1#readme"
+  
+  "scripts": {
+  "test": "echo \"No tests found, skipping...\" && exit 0"
+  },
+
 }

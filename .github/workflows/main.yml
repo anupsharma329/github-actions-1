@@ -1,0 +1,21 @@
+name: Run Tests
+
+on: push  # Runs when code is pushed
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # OS to run the job
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4  # Pulls code from repo
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install Dependencies
+        run: npm install  # Installs dependencies
+        
+      - name: Run Tests
+        run: npm test  # Runs tests
